@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55A53C7BF053928966BB8FB2 /* Pods_RxAudioVisual.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD8A132238EC59BB26EA87D /* Pods_RxAudioVisual.framework */; };
+		A04771657A828DFE13DD4536 /* Pods_RxAudioVisualTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2B979718E90A5609412606 /* Pods_RxAudioVisualTests.framework */; };
 		DE226FD41EDAEE8F00A46C07 /* AVPlayer+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE226FD31EDAEE8F00A46C07 /* AVPlayer+Rx.swift */; };
 		DE226FD81EDAFA3700A46C07 /* AVPlayerLayer+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE226FD71EDAFA3700A46C07 /* AVPlayerLayer+Rx.swift */; };
 		DE9B80F81EDA4D5B0018EE65 /* RxAudioVisual.h in Headers */ = {isa = PBXBuildFile; fileRef = DE9B80F61EDA4D5B0018EE65 /* RxAudioVisual.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13D42B2EB7EA9BE8370527F8 /* Pods-RxAudioVisual.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxAudioVisual.release.xcconfig"; path = "Target Support Files/Pods-RxAudioVisual/Pods-RxAudioVisual.release.xcconfig"; sourceTree = "<group>"; };
+		1D259792096E1FDFCCB5379B /* Pods-RxAudioVisualTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxAudioVisualTests.debug.xcconfig"; path = "Target Support Files/Pods-RxAudioVisualTests/Pods-RxAudioVisualTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28DA35F9D19D0E6205AAFA33 /* Pods-RxAudioVisual.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxAudioVisual.debug.xcconfig"; path = "Target Support Files/Pods-RxAudioVisual/Pods-RxAudioVisual.debug.xcconfig"; sourceTree = "<group>"; };
+		2DD8A132238EC59BB26EA87D /* Pods_RxAudioVisual.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxAudioVisual.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2B979718E90A5609412606 /* Pods_RxAudioVisualTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxAudioVisualTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE226FD31EDAEE8F00A46C07 /* AVPlayer+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Rx.swift"; sourceTree = "<group>"; };
 		DE226FD71EDAFA3700A46C07 /* AVPlayerLayer+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayerLayer+Rx.swift"; sourceTree = "<group>"; };
 		DE9B80F31EDA4D5B0018EE65 /* RxAudioVisual.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxAudioVisual.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +68,7 @@
 		FC32E2AD1EDFDF4000FF4B10 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		FC7DA12D1EE0EF87000ABD91 /* sample.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sample.mov; sourceTree = SOURCE_ROOT; };
 		FC7DA12F1EE0F5B3000ABD91 /* AVAsssetTrack+RxSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVAsssetTrack+RxSpec.swift"; sourceTree = "<group>"; };
+		FF5380147215B63FB8E06C6D /* Pods-RxAudioVisualTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxAudioVisualTests.release.xcconfig"; path = "Target Support Files/Pods-RxAudioVisualTests/Pods-RxAudioVisualTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,7 @@
 			files = (
 				FC32E2AA1EDFDE8300FF4B10 /* RxCocoa.framework in Frameworks */,
 				FC32E2AB1EDFDE8300FF4B10 /* RxSwift.framework in Frameworks */,
+				55A53C7BF053928966BB8FB2 /* Pods_RxAudioVisual.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +89,7 @@
 				FC32E2A21EDFDCB900FF4B10 /* RxAudioVisual.framework in Frameworks */,
 				FC32E2AF1EDFDF4000FF4B10 /* Quick.framework in Frameworks */,
 				FC32E2AE1EDFDF4000FF4B10 /* Nimble.framework in Frameworks */,
+				A04771657A828DFE13DD4536 /* Pods_RxAudioVisualTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,8 +103,22 @@
 				FC32E2AD1EDFDF4000FF4B10 /* Quick.framework */,
 				FC32E2A81EDFDE8300FF4B10 /* RxCocoa.framework */,
 				FC32E2A91EDFDE8300FF4B10 /* RxSwift.framework */,
+				2DD8A132238EC59BB26EA87D /* Pods_RxAudioVisual.framework */,
+				3F2B979718E90A5609412606 /* Pods_RxAudioVisualTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4395C11ACE7FF26C97A2FCE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28DA35F9D19D0E6205AAFA33 /* Pods-RxAudioVisual.debug.xcconfig */,
+				13D42B2EB7EA9BE8370527F8 /* Pods-RxAudioVisual.release.xcconfig */,
+				1D259792096E1FDFCCB5379B /* Pods-RxAudioVisualTests.debug.xcconfig */,
+				FF5380147215B63FB8E06C6D /* Pods-RxAudioVisualTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		DE9B80E91EDA4D5B0018EE65 = {
@@ -104,6 +128,7 @@
 				FC32E29E1EDFDCB900FF4B10 /* RxAudioVisualTests */,
 				DE9B80F41EDA4D5B0018EE65 /* Products */,
 				0AEFEDCD92E2D08DCF760D91 /* Frameworks */,
+				4395C11ACE7FF26C97A2FCE2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE9B80FB1EDA4D5B0018EE65 /* Build configuration list for PBXNativeTarget "RxAudioVisual" */;
 			buildPhases = (
+				A7D03950FA746ACB284715E0 /* [CP] Check Pods Manifest.lock */,
 				DE9B80EE1EDA4D5B0018EE65 /* Sources */,
 				DE9B80EF1EDA4D5B0018EE65 /* Frameworks */,
 				DE9B80F01EDA4D5B0018EE65 /* Headers */,
@@ -182,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC32E2A71EDFDCBA00FF4B10 /* Build configuration list for PBXNativeTarget "RxAudioVisualTests" */;
 			buildPhases = (
+				81F95A02B58C459318CA2188 /* [CP] Check Pods Manifest.lock */,
 				FC32E2991EDFDCB900FF4B10 /* Sources */,
 				FC32E29A1EDFDCB900FF4B10 /* Frameworks */,
 				FC32E29B1EDFDCB900FF4B10 /* Resources */,
@@ -253,6 +280,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81F95A02B58C459318CA2188 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxAudioVisualTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7D03950FA746ACB284715E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxAudioVisual-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE9B80EE1EDA4D5B0018EE65 /* Sources */ = {
@@ -409,6 +483,7 @@
 		};
 		DE9B80FC1EDA4D5B0018EE65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28DA35F9D19D0E6205AAFA33 /* Pods-RxAudioVisual.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -431,12 +506,13 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		DE9B80FD1EDA4D5B0018EE65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D42B2EB7EA9BE8370527F8 /* Pods-RxAudioVisual.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -458,12 +534,13 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
 		FC32E2A51EDFDCB900FF4B10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D259792096E1FDFCCB5379B /* Pods-RxAudioVisualTests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -482,6 +559,7 @@
 		};
 		FC32E2A61EDFDCB900FF4B10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF5380147215B63FB8E06C6D /* Pods-RxAudioVisualTests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
